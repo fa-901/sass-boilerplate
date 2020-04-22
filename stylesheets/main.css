@@ -7796,5 +7796,7 @@ a.text-dark:hover, a.text-dark:focus {
 /**
  * Basic typography style for copy text
  */
+body {
+  font-family: "Segoe UI Regular"; }
 
 /*# sourceMappingURL=main.css.map */
