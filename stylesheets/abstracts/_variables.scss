@@ -3,61 +3,20 @@
 // -----------------------------------------------------------------------------
 
 
-
-
-
 /// Regular font family
 /// @type List
 $text-font-stack: 'Segoe UI Regular';
 
+/// Background colors
+$primary-color: (#0747A6, #091E42, #42526E ,#FFFFFF);
 
+$secondary-color: (#E2FFEE, #79F2C0, #FFAB00 ,#FF5630);
 
-
-
-/// Copy text color
-/// @type Color
-$text-color: rgb(34, 34, 34) !default;
-
-/// Main brand color
-/// @type Color
-$brand-color: rgb(229, 0, 80) !default;
-
-/// Light grey
-/// @type Color
-$light-grey: rgb(237, 237, 237) !default;
-
-/// Medium grey
-/// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
-
-/// Dark grey
-/// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
-
-
-
-
-
-/// Container's maximum width
-/// @type Length
-$max-width: 1180px !default;
-
-
-
-
-
-/// Breakpoints map
-/// @prop {String} keys - Keys are identifiers mapped to a given length
-/// @prop {Map} values - Values are actual breakpoints expressed in pixels
-$breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
-) !default;
-
-
-
-
+$outline-color: (
+  'light': #D8D8D8,
+  'dark': #CDCDCD,
+  'selected': #177CFF,
+);
 
 
 /// Relative or absolute URL where all assets are served from
