@@ -330,6 +330,9 @@ a {
     color: #222222;
     text-decoration: underline; }
 
+p {
+  font-family: "Helvetica"; }
+
 /**
  * Basic typography style for copy text
  */
