@@ -7854,4 +7854,26 @@ h6 {
   color: #091E42;
   font-family: "OpenSans-Regular"; }
 
+.heading {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.37px;
+  text-transform: uppercase; }
+
+.text-link {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: bold;
+  letter-spacing: 0.37px; }
+
+.heading-section {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: lighter; }
+
+.address {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: lighter; }
+
 /*# sourceMappingURL=main.css.map */
