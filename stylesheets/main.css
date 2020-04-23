@@ -7906,6 +7906,26 @@ h6 {
     .quote .quoter:before {
       content: "— "; }
 
+p.p-main {
+  font: 16px/28px "Segoe UI Regular";
+  letter-spacing: 0px; }
+
+p.p-small {
+  font: 12px/19px "Segoe UI Regular";
+  letter-spacing: 0px; }
+
+p.p-smaller {
+  font: 11px/19px "Segoe UI Regular";
+  letter-spacing: 0px; }
+
+p.p-very-small {
+  font: 10px/15px "Segoe UI Regular";
+  letter-spacing: 0px; }
+
+p.p-lead {
+  font: 16px/28px "Segoe UI Regular";
+  letter-spacing: 0px; }
+
 .btn-standard {
   background-color: #0747A6;
   color: #FFFFFF; }

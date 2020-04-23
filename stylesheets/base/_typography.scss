@@ -71,4 +71,18 @@ $segoe: nth($text-font-stack, 1);
         letter-spacing: -0.2px;
     }
 }
+@mixin font($weight, $size, $lh){ //font-weight font-size line-height
+    font: $weight unquote($size+"/"+$lh) $segoe;
+}
+
+$para: ('main': (16px, 28px), 'small': (12px, 19px), 'smaller': (11px, 19px), 'very-small': (10px, 15px), 'lead':(16px, 28px) );
+@each $type, $value in $para {
+    $i: index($para, ($type $value));
+    $size: nth($value, 1);
+    $lh: nth($value, 2);
+    p.p-#{$type}{
+        @include font(null, $size, $lh);
+        letter-spacing: 0px;
+    }
+}
 //paragraphs and texts//
