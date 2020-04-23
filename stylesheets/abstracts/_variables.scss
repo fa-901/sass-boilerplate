@@ -5,20 +5,21 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'Segoe UI Regular';
+$text-font-stack: ('Segoe UI Regular', 'OpenSans-Regular');
 
 /// Background colors
 $primary-color: (#0747A6, #091E42, #42526E, #FFFFFF);
 
 $secondary-color: (#E2FFEE, #79F2C0, #FFAB00, #FF5630);
 
-$outline-color: (
-  'light': #D8D8D8,
+$outline-color: ('light': #D8D8D8,
   'dark': #CDCDCD,
   'selected': #177CFF,
 );
 
 $heading-size :(46px, 35px, 28px, 24px, 20px, 16px);
+
+$display-title-size :(52px, 44px, 34px, 26px, 16px);
 
 /// Relative or absolute URL where all assets are served from
 /// @type String

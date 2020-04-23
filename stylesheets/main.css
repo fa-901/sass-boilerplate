@@ -7774,7 +7774,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 body {
-  font-family: "Segoe UI Regular";
+  font-family: "Segoe UI Regular", "OpenSans-Regular";
   color: #42526E; }
 
 @font-face {
@@ -7797,6 +7797,11 @@ body {
   font-style: normal;
   font-weight: normal;
   src: local("Segoe UI Bold Italic"), url("../fonts/Segoe UI Bold Italic.woff") format("woff"); }
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.ttf") format("truetype"); }
 /**
  * Basic typography style for copy text
  */
@@ -7823,5 +7828,30 @@ h5 {
 h6 {
   font-size: 16px;
   color: #091E42; }
+
+.display-1 {
+  font-size: 52px;
+  color: #091E42;
+  font-family: "OpenSans-Regular"; }
+
+.display-2 {
+  font-size: 44px;
+  color: #091E42;
+  font-family: "OpenSans-Regular"; }
+
+.display-3 {
+  font-size: 34px;
+  color: #091E42;
+  font-family: "OpenSans-Regular"; }
+
+.display-4 {
+  font-size: 26px;
+  color: #091E42;
+  font-family: "OpenSans-Regular"; }
+
+.display-5 {
+  font-size: 16px;
+  color: #091E42;
+  font-family: "OpenSans-Regular"; }
 
 /*# sourceMappingURL=main.css.map */

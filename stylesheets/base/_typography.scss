@@ -4,12 +4,25 @@
 
 
 $primary-2: nth($primary-color, 2);
+$open-sans: nth($text-font-stack, 2);
 
+//creates header style
 @each $size in $heading-size {
     $i: index($heading-size, $size);
 
     h#{$i} {
         font-size: $size;
         color: $primary-2;
+    }
+}
+
+//creates display title size
+@each $size in $display-title-size {
+    $i: index($display-title-size, $size);
+
+    .display-#{$i} {
+        font-size: $size;
+        color: $primary-2;
+        font-family: $open-sans;
     }
 }
