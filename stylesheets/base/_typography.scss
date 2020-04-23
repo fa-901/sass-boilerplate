@@ -2,6 +2,14 @@
  * Basic typography style for copy text
  */
 
-body {
-    font-family: $text-font-stack;
+
+$primary-2: nth($primary-color, 2);
+
+@each $size in $heading-size {
+    $i: index($heading-size, $size);
+
+    h#{$i} {
+        font-size: $size;
+        color: $primary-2;
+    }
 }

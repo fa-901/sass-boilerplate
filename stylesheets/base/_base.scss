@@ -2,3 +2,9 @@
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
 
+
+body {
+    $primary-3: nth($primary-color, 3);
+    font-family: $text-font-stack;
+    color: $primary-3;
+}
