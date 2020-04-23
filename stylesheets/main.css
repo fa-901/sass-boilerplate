@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7890,6 +7891,20 @@ h6 {
   font-size: 12px;
   line-height: 14px;
   font-weight: lighter; }
+
+.muted {
+  font: lighter 16px/28px "Segoe UI Regular"; }
+
+.quote {
+  font: lighter 16px/21px "Segoe UI Regular";
+  letter-spacing: 0px;
+  text-transform: uppercase; }
+  .quote .quoter {
+    text-transform: none;
+    font: 16px/21px "Segoe UI Regular";
+    letter-spacing: -0.2px; }
+    .quote .quoter:before {
+      content: "— "; }
 
 .btn-standard {
   background-color: #0747A6;
