@@ -2,9 +2,28 @@
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
 
-
+$primary-3: nth($primary-color, 3);
+$primary-1: nth($primary-color, 1);
 body {
-    $primary-3: nth($primary-color, 3);
     font-family: $text-font-stack;
     color: $primary-3;
 }
+
+/* scroll bar styles*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: $primary-1; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:darken($color: $primary-1, $amount: 10%); 
+}
+/* scroll bar styles*/

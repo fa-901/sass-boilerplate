@@ -7777,6 +7777,21 @@ body {
   font-family: "Segoe UI Regular", "OpenSans-Regular";
   color: #42526E; }
 
+/* scroll bar styles*/
+::-webkit-scrollbar {
+  width: 8px; }
+
+::-webkit-scrollbar-track {
+  border-radius: 10px; }
+
+::-webkit-scrollbar-thumb {
+  background: #0747A6;
+  border-radius: 10px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #053275; }
+
+/* scroll bar styles*/
 @font-face {
   font-family: 'Segoe UI Regular';
   font-style: normal;
@@ -7875,5 +7890,9 @@ h6 {
   font-size: 12px;
   line-height: 14px;
   font-weight: lighter; }
+
+.btn-standard {
+  background: #DE350B 0% 0% no-repeat padding-box;
+  border-radius: 4px; }
 
 /*# sourceMappingURL=main.css.map */

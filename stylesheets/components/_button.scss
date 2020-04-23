@@ -1,3 +1,9 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+$primary-3: nth($primary-color, 3);
+$primary-1: nth($primary-color, 1);
+
+.btn-standard{
+    background: #DE350B;
+}
