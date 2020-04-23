@@ -3,7 +3,15 @@
 // -----------------------------------------------------------------------------
 $primary-3: nth($primary-color, 3);
 $primary-1: nth($primary-color, 1);
+$secondary-3: nth($secondary-color, 3);
+$secondary-4: nth($secondary-color, 4);
 
-.btn-standard{
-    background: #DE350B;
+$button-background: ('standard': $primary-1, 'ghost': $transparent, 'white':#FFFFFF,'warning': $secondary-3, 'error': $secondary-4);
+@each $type, $color in $button-background {
+    .btn-#{$type}{
+        @include on-event{
+        background-color: darken($color, 5%);
+    }
+    background-color: $color;
+}
 }

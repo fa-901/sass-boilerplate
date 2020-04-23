@@ -4,6 +4,7 @@
 
 $primary-3: nth($primary-color, 3);
 $primary-1: nth($primary-color, 1);
+
 body {
     font-family: $text-font-stack;
     color: $primary-3;

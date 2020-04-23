@@ -7892,7 +7892,28 @@ h6 {
   font-weight: lighter; }
 
 .btn-standard {
-  background: #DE350B 0% 0% no-repeat padding-box;
-  border-radius: 4px; }
+  background-color: #0747A6; }
+  .btn-standard:hover, .btn-standard:active, .btn-standard:focus {
+    background-color: #063d8e; }
+
+.btn-ghost {
+  background-color: rgba(255, 255, 255, 0); }
+  .btn-ghost:hover, .btn-ghost:active, .btn-ghost:focus {
+    background-color: rgba(242, 242, 242, 0); }
+
+.btn-white {
+  background-color: #FFFFFF; }
+  .btn-white:hover, .btn-white:active, .btn-white:focus {
+    background-color: #f2f2f2; }
+
+.btn-warning {
+  background-color: #FFAB00; }
+  .btn-warning:hover, .btn-warning:active, .btn-warning:focus {
+    background-color: #e69a00; }
+
+.btn-error {
+  background-color: #FF5630; }
+  .btn-error:hover, .btn-error:active, .btn-error:focus {
+    background-color: #ff4117; }
 
 /*# sourceMappingURL=main.css.map */
