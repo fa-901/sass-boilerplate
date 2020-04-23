@@ -7892,28 +7892,48 @@ h6 {
   font-weight: lighter; }
 
 .btn-standard {
-  background-color: #0747A6; }
+  background-color: #0747A6;
+  color: #FFFFFF; }
   .btn-standard:hover, .btn-standard:active, .btn-standard:focus {
-    background-color: #063d8e; }
+    background-color: #063d8e;
+    color: #FFFFFF; }
+  .btn-standard:focus {
+    box-shadow: 0 0 0 0.2rem #0747A6; }
 
 .btn-ghost {
-  background-color: rgba(255, 255, 255, 0); }
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #091E42; }
   .btn-ghost:hover, .btn-ghost:active, .btn-ghost:focus {
-    background-color: rgba(242, 242, 242, 0); }
+    background-color: rgba(242, 242, 242, 0.3);
+    color: #091E42; }
+  .btn-ghost:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.3); }
 
 .btn-white {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  color: #091E42; }
   .btn-white:hover, .btn-white:active, .btn-white:focus {
-    background-color: #f2f2f2; }
+    background-color: #f2f2f2;
+    color: #091E42; }
+  .btn-white:focus {
+    box-shadow: 0 0 0 0.2rem #FFFFFF; }
 
 .btn-warning {
-  background-color: #FFAB00; }
+  background-color: #FFAB00;
+  color: #FFFFFF; }
   .btn-warning:hover, .btn-warning:active, .btn-warning:focus {
-    background-color: #e69a00; }
+    background-color: #e69a00;
+    color: #FFFFFF; }
+  .btn-warning:focus {
+    box-shadow: 0 0 0 0.2rem #FFAB00; }
 
 .btn-error {
-  background-color: #FF5630; }
+  background-color: #FF5630;
+  color: #FFFFFF; }
   .btn-error:hover, .btn-error:active, .btn-error:focus {
-    background-color: #ff4117; }
+    background-color: #ff4117;
+    color: #FFFFFF; }
+  .btn-error:focus {
+    box-shadow: 0 0 0 0.2rem #FF5630; }
 
 /*# sourceMappingURL=main.css.map */

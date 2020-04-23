@@ -3,15 +3,24 @@
 // -----------------------------------------------------------------------------
 $primary-3: nth($primary-color, 3);
 $primary-1: nth($primary-color, 1);
+$primary-4: nth($primary-color, 4);
+$primary-2: nth($primary-color, 2);
 $secondary-3: nth($secondary-color, 3);
 $secondary-4: nth($secondary-color, 4);
 
-$button-background: ('standard': $primary-1, 'ghost': $transparent, 'white':#FFFFFF,'warning': $secondary-3, 'error': $secondary-4);
+$button-background: ('standard': $primary-1, 'ghost': $transparent, 'white': $primary-4,'warning': $secondary-3, 'error': $secondary-4);
+$btn-text: ($primary-4, $primary-2, $primary-2, $primary-4, $primary-4);
 @each $type, $color in $button-background {
+    $i: index($button-background, ($type $color));
     .btn-#{$type}{
         @include on-event{
-        background-color: darken($color, 5%);
+            background-color: darken($color, 5%);
+            color: nth($btn-text, $i);
+        }
+        &:focus{
+            box-shadow: 0 0 0 0.2rem $color;
+        }
+        background-color: $color;
+        color: nth($btn-text, $i);
     }
-    background-color: $color;
-}
 }
