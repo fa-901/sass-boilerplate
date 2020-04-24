@@ -7926,8 +7926,10 @@ p.p-lead {
   font: 16px/28px "Segoe UI Regular";
   letter-spacing: 0px; }
 
+/*** Main buttons ***/
 .btn-standard {
   background-color: #0747A6;
+  border-color: #0747A6;
   color: #FFFFFF; }
   .btn-standard:hover, .btn-standard:active, .btn-standard:focus {
     background-color: #063d8e;
@@ -7937,6 +7939,7 @@ p.p-lead {
 
 .btn-ghost {
   background-color: rgba(255, 255, 255, 0.3);
+  border-color: #091E42;
   color: #091E42; }
   .btn-ghost:hover, .btn-ghost:active, .btn-ghost:focus {
     background-color: rgba(242, 242, 242, 0.3);
@@ -7946,6 +7949,7 @@ p.p-lead {
 
 .btn-white {
   background-color: #FFFFFF;
+  border-color: #091E42;
   color: #091E42; }
   .btn-white:hover, .btn-white:active, .btn-white:focus {
     background-color: #f2f2f2;
@@ -7955,6 +7959,7 @@ p.p-lead {
 
 .btn-warning {
   background-color: #FFAB00;
+  border-color: #FFAB00;
   color: #FFFFFF; }
   .btn-warning:hover, .btn-warning:active, .btn-warning:focus {
     background-color: #e69a00;
@@ -7964,11 +7969,14 @@ p.p-lead {
 
 .btn-error {
   background-color: #FF5630;
+  border-color: #FF5630;
   color: #FFFFFF; }
   .btn-error:hover, .btn-error:active, .btn-error:focus {
     background-color: #ff4117;
     color: #FFFFFF; }
   .btn-error:focus {
     box-shadow: 0 0 0 0.2rem #FF5630; }
+
+/*** Main buttons ***/
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,8 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+/*** Main buttons ***/
 $primary-3: nth($primary-color, 3);
 $primary-1: nth($primary-color, 1);
 $primary-4: nth($primary-color, 4);
@@ -10,6 +12,7 @@ $secondary-4: nth($secondary-color, 4);
 
 $button-background: ('standard': $primary-1, 'ghost': $transparent, 'white': $primary-4,'warning': $secondary-3, 'error': $secondary-4);
 $btn-text: ($primary-4, $primary-2, $primary-2, $primary-4, $primary-4);
+$border-color: ($primary-1, $primary-2, $primary-2, $secondary-3, $secondary-4);
 @each $type, $color in $button-background {
     $i: index($button-background, ($type $color));
     .btn-#{$type}{
@@ -21,6 +24,8 @@ $btn-text: ($primary-4, $primary-2, $primary-2, $primary-4, $primary-4);
             box-shadow: 0 0 0 0.2rem $color;
         }
         background-color: $color;
+        border-color: nth($border-color, $i);
         color: nth($btn-text, $i);
     }
 }
+/*** Main buttons ***/
