@@ -32,3 +32,18 @@
   }
 }
 
+@mixin button-structure($background-color,$border-color,$text-color){
+  @include on-event{
+    background-color: darken($background-color, 6%);
+    color: $text-color;
+  }
+  &:focus{
+    box-shadow: 0 0 0 0.2rem $background-color;
+  }
+  background-color: $background-color;
+  border-color: $border-color;
+  color: $text-color;
+  @content;
+}
+
+
