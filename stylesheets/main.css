@@ -8030,4 +8030,32 @@ input:checked + .toggle:before {
   transform: translateX(26px);
   background-color: #0747A6; }
 
+.badge-standard {
+  background-color: #0747A6;
+  color: #FFFFFF; }
+
+.badge-warning {
+  background-color: #FF8B00;
+  color: #FFFFFF; }
+
+.badge-purple {
+  background-color: #403294;
+  color: #FFFFFF; }
+
+.badge-success {
+  background-color: #00875A;
+  color: #FFFFFF; }
+
+.badge-error {
+  background-color: #DE350B;
+  color: #FFFFFF; }
+
+.badge-default {
+  background-color: #42526E;
+  color: #FFFFFF; }
+
+.badge-info {
+  background-color: #4E9AFC;
+  color: #FFFFFF; }
+
 /*# sourceMappingURL=main.css.map */
