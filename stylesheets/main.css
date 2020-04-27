@@ -7776,7 +7776,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 body {
   font-family: "Segoe UI Regular", "OpenSans-Regular";
-  color: #42526E; }
+  color: #42526E;
+  background-color: #FFFFFF; }
 
 /* scroll bar styles*/
 ::-webkit-scrollbar {

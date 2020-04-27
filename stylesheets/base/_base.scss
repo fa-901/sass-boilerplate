@@ -3,12 +3,14 @@
 // -----------------------------------------------------------------------------
 
 $primary-3: nth($primary-color, 3);
+$primary-4: nth($primary-color, 4);
 $primary-1: nth($primary-color, 1);
 
 body {
     font-family: $text-font-stack;
     // font-size: 12px;
     color: $primary-3;
+    background-color: $primary-4;
 }
 
 /* scroll bar styles*/
